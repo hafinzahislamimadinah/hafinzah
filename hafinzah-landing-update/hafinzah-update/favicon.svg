@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hafinzah Fotocopy">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18a96e"/>
+      <stop offset="100%" stop-color="#0f8a58"/>
+    </linearGradient>
+  </defs>
+  <!-- rounded tile -->
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <!-- printer body -->
+  <rect x="14" y="22" width="36" height="26" rx="4" fill="#fff"/>
+  <!-- paper tray top -->
+  <path d="M20 22 V16 c0-2.2 1.8-4 4-4 h16 c2.2 0 4 1.8 4 4 v6" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- output paper -->
+  <rect x="20" y="34" width="24" height="10" rx="1.5" fill="#18a96e" opacity=".9"/>
+  <!-- paper lines -->
+  <path d="M23 37.5 h18 M23 41.5 h12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <!-- button -->
+  <circle cx="44" cy="28" r="2.2" fill="#18a96e"/>
+</svg>
